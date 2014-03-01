@@ -1,0 +1,63 @@
+header, footer, article, section, hgroup, nav, figure { display: block; }
+figure,img {
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	background:white;
+	color:#6d757a;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:none;
+	min-width:320px;
+}
+
+.login img{
+	display: block;
+	width: 320px;
+}
+.tab{
+	display: -webkit-box;
+}
+.tab img{
+	float: left;
+	width: 80px;
+}
+
+.nav1 img{
+	float: left;
+	width: 107px;
+}
+.nav2 img{
+	float: left;
+	width: 106px;
+}
+#searchbox {
+	margin:15px 0 30px 0;
+	height:50px;
+	width:770px;
+	border: 1px solid #D6D6D6;
+	color:#A6A8AB;font-family:'Roboto', sans-serif;
+	font-size:15px;
+	padding-left:20px;
+	font-weight:100;
+	color: black;
+}
+
+#wrapper{
+	background: url(../images/bg_image.jpg) top left no-repeat fixed;
+	background-size: 320px auto;
+	min-height: 500px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.expand{
+    content:url("../images/grey.png");
+    cursor: pointer;
+}
+.collapse{
+    content:url("../images/green.png");
+    cursor: pointer;
+}
